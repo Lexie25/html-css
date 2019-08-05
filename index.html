@@ -1,0 +1,557 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="Y_bRK-afPHrvDqliuLca0lo-34he9d6qlGN-nldRriM" />
+    <meta name="google-site-verification" content="HSWmg-pLxww9QTPEGqOi_XYdyCUWvc3PSr39TPyL3Zc" />
+    <meta name="theme-color" content="#151515">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#151515">
+    <meta name="msapplication-navbutton-color" content="#151515">
+    <meta name="description" content="Na Mastertech você pode aprender habilidades como tecnologia, design, marketing digital e negócios. Com cursos de curto, médio e longo prazo você tem experiências práticas focadas em pessoas. Transforme sua carreira com a Mastertech"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/icons/faviconMT.png">
+    <link rel="stylesheet" href="./estilo.css">
+    <script defer src="/static/js/main.min.js"></script>
+    <title>Mastertech</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71030893-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-71030893-1');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1704360953217070'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1704360953217070&ev=PageView&noscript=1" alt="NoScript facebook"/>
+    </noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WX94BVG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="d-none d-md-block">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary no-padding fixed-top">
+    <a class="navbar-brand" href="/">
+      <img class="img-fluid" src="/static/images/home/logo-mastertech-branco.png" alt="Logo da mastertech branco" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-5 ml-sm-0" id="navbarNavDropdown">
+      <div class="container">
+        <ul class="navbar-nav navbar-pills menu-text-decoration">
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle border border-light rounded color-hover-cursos" href="#" id="cursosDesktop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CURSOS
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/corporativo">CORPORATIVO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/biblioteca">DOWNLOADS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://blog.mastertech.com.br">BLOG</a>
+          </li>
+
+          <!-- BOTAO LOGIN -->
+          
+          <li class="nav-item ml-md-auto">
+            <a class="nav-link" href="/meu-mastertech/login/index">LOGIN</a>
+          </li>
+
+          
+        </ul>
+      </div>
+      <div class="header-dropdown" id="menu">
+        <div id="header-tabs" class="container-lg">
+          <div class="closebutton" tabindex="3">
+            <span>x</span>
+          </div>
+          <ul class="header-tabs"></ul>
+          <ul class="header-tabs-content"></ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Navegação Mobile -->
+<header class="d-md-none d-lg-none">
+  <nav class="navbar bg-secondary no-padding fixed-top navbar-mobile">
+    <img id="nav-icon2" src="/static/images/menu/arrow-left2.png" class="icon-style" alt="Seta para a esquerda" />
+    <ul class="d-block header-mobile">
+      <li>
+      </li>
+      <li class="logo-menu-mobile">
+        <a class="navbar-brand" href="/">
+          <img src="/static/images/home/logo-mastertech-reduzido-branco.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </li>
+    </ul>
+    <ul class="bg-secondary container-mobile first tabs">
+      <li>Cursos</li>
+      <li>
+        <ul class="tabs"></ul>
+      </li>
+      <li>
+        <a class="nav-link" href="/corporativo">Corporativo</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/biblioteca">Downloads</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://blog.mastertech.com.br">Blog</a>
+      </li>
+
+      
+      <li class="nav-item ml-md-auto">
+        <a class="nav-link" href="/meu-mastertech/login/index">Login</a>
+      </li>
+
+      
+    </ul>
+    <ul class="bg-secondary container-mobile second tabs"></ul>
+  </nav>
+</header>
+
+
+    <div id="wrap">
+        
+<div class="home mb-5">
+  <div class="container-fluid">
+    <div class="row top-space">
+      <a class="banner-photo col-12 col-md-8" href="#CursosHome"></a>
+      <div class="col-12 col-md-4">
+        <div class="row">
+          <div class="courses-box col-6 col-md-12">
+            <a target="_blank" href="/tecnologia/aprenda-a-programar-em-um-final-de-semana">
+              <img class="img-fluid" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/fds-tech.png" alt="icone" />
+            </a>
+            <div>
+              <h5>Aprenda a Programar em um FDS</h5>
+              <p>Em um final de semana você vai aprender os principais
+                conceitos de HTML, CSS e Javascript. Entenda por onde você pode começar, ou
+                entender como esse mundo de tecnologia funciona além de aprender a aprender de
+                uma maneira diferente e que programação não é tão difícil como dizem.
+              </p>
+            </div>
+          </div>
+          <div class="courses-box col-6 col-md-12">
+            <a target="_blank" href="/negocios/mindset-agil-fds">
+              <img class="img-fluid" src="https://mastertechfiles.s3-sa-east-1.amazonaws.com/Modelo-mindset-agil.png" alt="mindset-agil" />
+            </a>
+            <div>
+              <h5>Mindset Ágil em um FDS</h5>
+              <p>Somente aplicar Scrum, Kanban ou XP não é garantia de sucesso. É preciso
+                aprender como funcionam as pessoas, a sua organização como um todo, é fomentar o
+                aprendizado do dia a dia de erros e acertos, é ter metas tangíveis e ser
+                resiliente. Em um final de semana vamos desmistificar alguns conceitos de ágil e
+                entender a metodologia ágil versus as estruturas convencionais de gestão de
+                projetos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <!-- Calendario-->
+    <div class="gallery">
+      <div class="container">
+        <h2>
+          <a href="/biblioteca">
+            <span class="font-weight-bold">
+              Vem entender a metodologia Mastertech com materiais gratuitos
+              <i class="fas fa-angle-right icon-gratuito"></i>
+            </span>
+          </a>
+        </h2>
+        <div class="row sizing-mobile mt-5">
+          <div class="col-12 col-sm-4 mb-20 gallery-content">
+            <a href="https://materiais.mastertech.com.br/tecnologia-para-lideres" target="_blank">
+              <img class="img-fluid hover-animation" src="/static/images/lives/tecnologia-lider.png" alt="tech para líderes" />
+              <div>
+                <h5 class="mt-3 mb-4 text-center">
+                  <img class="img-fluid icon-video" src="/static/images/home/icon-video.png" alt="icon-video" />
+                  Inscrição Gratuita
+                </h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 mb-20 gallery-content">
+            <a href="https://materiais.mastertech.com.br/ux-para-nao-designer" target="_blank">
+              <img class="img-fluid hover-animation" src="/static/images/lives/ux-nao-designer.png" alt="Ux para não designers" />
+              <div>
+                <h5 class="mt-3 mb-4 text-center">
+                  <img class="img-fluid icon-video" src="/static/images/home/icon-video.png" alt="icon-video" />
+                  Inscrição Gratuita
+                </h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 mb-20 gallery-content">
+            <a href="https://materiais.mastertech.com.br/checklist-seo" target="_blank">
+              <img class="img-fluid hover-animation" src="/static/images/lives/trio-de-ouro.png" alt="Trio de ouro" />
+              <div>
+                <h5 class="mt-3 mb-4 text-center">
+                  <img class="img-fluid icon-video" src="/static/images/home/icon-video.png" alt="icon-video" />
+                  Inscrição Gratuita
+                </h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row sizing-mobile mt-5">
+          <div class="ml-mais-materiais col-12 col-sm-4"></div>
+          <div class="ml-mais-materiais col-12 col-sm-4 gallery-content">
+            <a href="https://biblioteca.mastertech.com.br/" id="btn-inscrever" class="btn btn-primary container">Mais Materiais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCIAS/CURSOS -->
+    <div class="container" id="CursosHome">
+      <h2>
+        <span class="font-weight-bold">Cursos Transformadores</span>
+      </h2>
+
+      <div class="calendar-size">
+        <div class="mt-5">
+          <h3 class="subtitulo" data-filter="Tecnologia">Tecnologia</h3>
+          <div class="slide-courses">
+            <div class="mb-1">
+              <a href="/tecnologia/programacao-para-nao-programadores" data-keyword="tecnologia/programacao-para-nao-programadores">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/684a76a5-7cf7-4be1-aaba-cd2422342656" alt="Programa&#231;&#227;o Para N&#227;o Programadores ">
+                <h5 class="mt-3 cursoNome">Programa&#231;&#227;o Para N&#227;o Programadores </h5>
+              </a>
+            </div>
+            <div cclass="mb-1">
+              <a href="/tecnologia/aprenda-a-programar-em-um-final-de-semana" data-keyword="tecnologia/aprenda-a-programar-em-um-final-de-semana">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/c129da53-3fae-4640-a4e3-d42df6fdfd7a" alt="Aprenda a Programar em um FDS">
+                <h5 class="mt-3 cursoNome">Aprenda a Programar em um FDS</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/desenvolvimento-web-full-stack" data-keyword="tecnologia/desenvolvimento-web-full-stack">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/76771afc-5af7-4200-a826-a7ecea681c39" alt="Desenvolvimento Web Full Stack">
+                <h5 class="mt-3 cursoNome">Desenvolvimento Web Full Stack</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/programacao-para-nao-programadores" data-keyword="tecnologia/programacao-para-nao-programadores">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/684a76a5-7cf7-4be1-aaba-cd2422342656" alt="Programa&#231;&#227;o Para N&#227;o Programadores ">
+                <h5 class="mt-3 cursoNome">Programa&#231;&#227;o Para N&#227;o Programadores </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/aprenda-a-programar-em-um-final-de-semana" data-keyword="tecnologia/aprenda-a-programar-em-um-final-de-semana">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/c129da53-3fae-4640-a4e3-d42df6fdfd7a" alt="Aprenda a Programar em um FDS">
+                <h5 class="mt-3 cursoNome">Aprenda a Programar em um FDS</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/curso-imersivo-web-back-end" data-keyword="tecnologia/curso-imersivo-web-back-end">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/6a036b21-7b78-42cd-bef6-660e4e89d5f0" alt="Imersivo Desenvolvimento de Backend ">
+                <h5 class="mt-3 cursoNome">Imersivo Desenvolvimento de Backend </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/programacao-para-nao-programadores" data-keyword="tecnologia/programacao-para-nao-programadores">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/684a76a5-7cf7-4be1-aaba-cd2422342656" alt="Programa&#231;&#227;o Para N&#227;o Programadores ">
+                <h5 class="mt-3 cursoNome">Programa&#231;&#227;o Para N&#227;o Programadores </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/tecnologia/bootcamp-frontend" data-keyword="tecnologia/curso-imersivo-web-back-end">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/ae84f10f-e51b-4410-8a91-618bb8d147df" alt="Imersivo Desenvolvimento de Backend ">
+                <h5 class="mt-3 cursoNome">Imersivo Desenvolvimento Front-end</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <h3 class="subtitulo" data-filter="Design &amp; UX">Design &amp; UX</h3>
+          <div class="slide-courses">
+            <div class="mb-1">
+              <a href="/design-ux/ux-para-nao-designers" data-keyword="design-ux/ux-para-nao-designers">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/fcce16d2-a0ef-4b8a-add0-71a7c1e9259b" alt="UX para n&#227;o designers | Noturno">
+                <h5 class="mt-3 cursoNome">UX para n&#227;o designers | Noturno</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/design-ux/ux-design" data-keyword="design-ux/ux-design">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/40a321dd-45c8-4f56-a029-e6b71153791d" alt="UX Design Imersivo | Noturno">
+                <h5 class="mt-3 cursoNome">UX Design Imersivo | Noturno</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/design-ux/ux-para-nao-designers" data-keyword="design-ux/ux-para-nao-designers">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/fcce16d2-a0ef-4b8a-add0-71a7c1e9259b" alt="UX para n&#227;o designers | Noturno">
+                <h5 class="mt-3 cursoNome">UX para n&#227;o designers | Noturno</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/design-ux/ux-para-nao-designers" data-keyword="design-ux/ux-para-nao-designers">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/fcce16d2-a0ef-4b8a-add0-71a7c1e9259b" alt="UX para n&#227;o designers | Noturno">
+                <h5 class="mt-3 cursoNome">UX para n&#227;o designers | Noturno</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/design-ux/ux-design" data-keyword="design-ux/ux-design">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/40a321dd-45c8-4f56-a029-e6b71153791d" alt="UX Design Imersivo | Noturno">
+                <h5 class="mt-3 cursoNome">UX Design Imersivo | Noturno</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <h3 class="subtitulo" data-filter="Neg&#243;cios">Neg&#243;cios</h3>
+          <div class="slide-courses">
+            <div class="mb-1">
+              <a href="/negocios/gestao-de-projetos-com-scrum-e-lego-noturno" data-keyword="negocios/gestao-de-projetos-com-scrum-e-lego-noturno">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/8efabc3a-df4d-49d2-bf16-ea720f04ef38" alt="Gest&#227;o de Projetos com Scrum e Legos | Noturno ">
+                <h5 class="mt-3 cursoNome">Gest&#227;o de Projetos com Scrum e Legos | Noturno </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/metodologia-de-design-thinking" data-keyword="negocios/metodologia-de-design-thinking">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/015b867d-9a9c-43f6-ba36-291d3bad36a8" alt="Metodologia de Design Thinking">
+                <h5 class="mt-3 cursoNome">Metodologia de Design Thinking</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/gestao-de-projetos-com-scrum-e-lego-noturno" data-keyword="negocios/gestao-de-projetos-com-scrum-e-lego-noturno">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/8efabc3a-df4d-49d2-bf16-ea720f04ef38" alt="Gest&#227;o de Projetos com Scrum e Legos | Noturno ">
+                <h5 class="mt-3 cursoNome">Gest&#227;o de Projetos com Scrum e Legos | Noturno </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/gestao-de-projetos-ageis" data-keyword="negocios/gestao-de-projetos-ageis">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/df4aec22-e4ac-4841-be2d-e5056643bd87" alt="Gest&#227;o de Projetos &#193;geis Noturno">
+                <h5 class="mt-3 cursoNome">Gest&#227;o de Projetos &#193;geis Noturno</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/metodologia-de-design-thinking" data-keyword="negocios/metodologia-de-design-thinking">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/015b867d-9a9c-43f6-ba36-291d3bad36a8" alt="Metodologia de Design Thinking">
+                <h5 class="mt-3 cursoNome">Metodologia de Design Thinking</h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/gestao-de-projetos-com-scrum-e-lego-noturno" data-keyword="negocios/gestao-de-projetos-com-scrum-e-lego-noturno">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/8efabc3a-df4d-49d2-bf16-ea720f04ef38" alt="Gest&#227;o de Projetos com Scrum e Legos | Noturno ">
+                <h5 class="mt-3 cursoNome">Gest&#227;o de Projetos com Scrum e Legos | Noturno </h5>
+              </a>
+            </div>
+            <div class="mb-1">
+              <a href="/negocios/gestao-de-projetos-ageis" data-keyword="negocios/gestao-de-projetos-ageis">
+                <img class="img-fluid hover-animation" src="https://s3-sa-east-1.amazonaws.com/mastertechfiles/df4aec22-e4ac-4841-be2d-e5056643bd87" alt="Gest&#227;o de Projetos &#193;geis Noturno">
+                <h5 class="mt-3 cursoNome">Gest&#227;o de Projetos &#193;geis Noturno</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- RECONHECIMENTO -->
+
+    <div class="container">
+      <h2>
+        <span class="font-weight-bold">Reconhecimento Nacional e Internacional</span>
+      </h2>
+      <div class="row mt-60 sizing-mobile" style="margin-bottom: 40px;">
+        <div class="col-6 col-md-3">
+          <img class="img-fluid mx-auto mb-20" src="/static/images/home/mit.jpg" alt="Prêmio Mastertech Google MIT" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img class="img-fluid mx-auto mb-20" src="/static/images/home/salesforce.jpg" alt="Prêmio Mastertech Salesforce" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img class="img-fluid mx-auto mb-20" src="/static/images/home/wework.jpg" alt="Prêmio Mastertech WeWork" />
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+          <img class="img-fluid mx-auto mb-20" src="/static/images/home/facebook.jpg" alt="Prêmio Mastertech Facebook" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <footer class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                    <img class="img-fluid position-itens-footer" src="/static/images/home/logo-mastertech-branco.png" alt="Logo da mastertech branco" />
+                    <p class="description-footer text-light"> A Mastertech é mais do que uma escola, estamos educando para o futuro. Criamos experiências imersivas com foco nas pessoas. Acreditamos na transformação que o conhecimento pode trazer para qualquer um, em qualquer momento.</p>
+                    <hr class="bg-light d-md-none d-lg-none" />
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-2 col-sm-12 position-itens-footer">
+                    <ul class="space-between-footer">
+                        <li class="title-footer">A Mastertech</li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=3aT61IK3VEY" class="itens-footer" target="_blank">Sobre a Mastertech</a>
+                        </li>
+                        <li>
+                            <a href="https://goo.gl/maps/WtdHMMyCmxJ2" class="itens-footer" target="_blank">Localização</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.mastertech.tech/" class="itens-footer" target="_blank">Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://goo.gl/forms/8pdllh9a3cTKnr2j2" class="itens-footer" target="_blank">Quer dar aula?</a>
+                        </li>
+                    </ul>
+                    <hr class="bg-light d-lg-none" />
+                </div>
+                <div class="col-lg-2 col-sm-12 position-itens-footer">
+                    <ul class="space-between-footer">
+                        <li class="title-footer">Nossos projetos</li>
+                        <li>
+                            <a href="https://mastertech.com.br/apollo18" class="itens-footer" target="_blank">Apollo18</a>
+                        </li>
+                        <li>
+                            <a href="https://mastertech.com.br/estacaohack" class="itens-footer" target="_blank">Estação Hack</a>
+                        </li>
+                    </ul>
+                    <hr class="bg-light d-lg-none" />
+                </div>
+                <div class="col-lg-2 col-sm-12 position-itens-footer">
+                    <ul class="space-between-footer">
+                        <li class="title-footer">Fale com a gente</li>
+                        <li class="itens-footer">Email: oi@mastertech.tech</li>
+                        <li class="itens-footer">Whats: (11) 99801-1661</li>
+
+                    </ul>
+                    <div class="align-social-media">
+                        <div class='icon'>
+                            <a href="https://www.facebook.com/mastertech.tech" target="_blank">
+                                <img id="facebook" src="/static/images/icons/facebook-icon.png" alt="Facebook">
+                            </a>
+                        </div>
+                        <div class='icon'>
+                            <a href="https://www.instagram.com/mastertech.tech" target="_blank">
+                                <img id="facebook" src="/static/images/icons/instagram-icon.png" alt="Facebook">
+                            </a>
+                        </div>
+                        <div class='icon'>
+                            <a href="https://twitter.com/mastertech_tech" target="_blank">
+                                <img id="facebook" src="/static/images/icons/twitter-icon.png" alt="Facebook">
+                            </a>
+                        </div>
+                        <div class='icon'>
+                            <a href="https://www.youtube.com/channel/UCVAwnfMBdeA7Zz2fQf8fo_w" target="_blank">
+                                <img id="facebook" src="/static/images/icons/youtube-icon.png" alt="Facebook">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Intecom-->
+    <script>
+        window.intercomSettings = {
+            app_id: "ex67jwet"
+        };
+        (function() {
+            var w = window;
+            var ic = w.Intercom;
+            if (typeof ic === "function") {
+                ic('reattach_activator');
+                ic('update', intercomSettings);
+            } else {
+                var d = document;
+                var i = function() {
+                    i.c(arguments)
+                };
+                i.q = [];
+                i.c = function(args) {
+                    i.q.push(args)
+                };
+                w.Intercom = i;
+
+                function l() {
+                    var s = d.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://widget.intercom.io/widget/tzu056ec';
+                    var x = d.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+                if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            }
+        })()
+    </script>
+
+    <!-- Menu -->
+    <script>
+        const cursos = [{"id": 18, "name": "Gest\u00e3o de Projetos com Scrum e Legos  - noturno", "category": "business", "slug": "/negocios/gestao-de-projetos-com-scrum-e-lego-noturno", "image": "https://mastertechfiles.blob.core.windows.net/site/bbd55514-a42f-4b49-bc96-2d6d8c2f8764", "workload": 3, "description": "O que \u00e9 scrum, a filosofia de um mindset \u00e1gil, frameworks \u00e1geis, e aprenda como construir um projeto de legos com scrum.", "interview": false, "created_at": "2018-09-17T01:24:49.268116-03:00", "updated_at": "2018-11-22T11:21:04.925469-02:00", "active": true}, {"id": 19, "name": "Programa\u00e7\u00e3o Para N\u00e3o Programadores", "category": "technology", "slug": "/tecnologia/programacao-para-nao-programadores", "image": "https://mastertechfiles.blob.core.windows.net/site/2ed86aa7-f5b7-4f31-a42f-9f3cbc774317", "workload": 3, "description": "Aprender  conceitos b\u00e1sicos de programa\u00e7\u00e3o com tecnologias web, al\u00e9m de entender como se aplica a l\u00f3gica de prograna\u00e7\u00e3o em sistemas.", "interview": false, "created_at": "2018-09-17T01:24:49.271208-03:00", "updated_at": "2019-02-05T10:33:42.553555-02:00", "active": true}, {"id": 38, "name": "UX para n\u00e3o designers - noturno", "category": "design-ux", "slug": "/design-ux/ux-para-nao-designers", "image": "https://mastertechfiles.blob.core.windows.net/site/1b38c544-2081-4a82-a329-1e3105e91b9e", "workload": 3, "description": "Conceitos de UX,  diferen\u00e7as de UX e UI, Design centrado no usu\u00e1rio,  metodologia na pr\u00e1tica e Principais m\u00e9todos e entreg\u00e1veis", "interview": false, "created_at": "2018-09-17T01:24:49.329840-03:00", "updated_at": "2018-11-22T11:20:32.099633-02:00", "active": true}, {"id": 4, "name": "Gest\u00e3o de Projetos \u00c1geis Noturno", "category": "business", "slug": "/negocios/gestao-de-projetos-ageis", "image": "https://mastertechfiles.blob.core.windows.net/site/a5bc035d-c7ec-4838-a5e1-d231d3890e49", "workload": 48, "description": "Concluiu com sucesso os m\u00f3dulos de Introdu\u00e7\u00e3o a Gest\u00e3o de Projetos e como fazer o desenvolvimento de um projeto,  Desenvolvimento de clientes, Criando e testando seu MVP, Modelo de Neg\u00f3cio, Pesquisa de Mercado, Metodologias e Roadmap de produto, Tecnologia para gestores de projetos,  M\u00e9tricas, precifica\u00e7\u00e3o e modelos de financiamento, Personas e mapas de empatia, User stories,  wireframe, Storyboarding e trabalho colaborativo em um meio \u00e1gil.", "interview": false, "created_at": "2018-09-17T01:24:49.210844-03:00", "updated_at": "2018-12-13T09:19:47.050295-02:00", "active": true}, {"id": 3, "name": "Imersivo Desenvolvimento Front-end", "category": "technology", "slug": "/tecnologia/bootcamp-frontend", "image": "https://mastertechfiles.blob.core.windows.net/site/2a7e8ac3-db17-4bfa-a22c-73d6cf3a76dc", "workload": 75, "description": "HTML, CSS e Javascript, conceitos b\u00e1sicos de SEO e UX, l\u00f3gica de programa\u00e7\u00e3o. sistemas de versionamento com git e github, Bootstrap 4.0, React, SASS e Gulp, Jquery e plugins,  metodologias de trabalho no front end, an\u00e1lise de requisito, como trabalhar com um layout em photoshop e cria\u00e7\u00e3o de um projeto.", "interview": false, "created_at": "2018-09-17T01:24:49.207376-03:00", "updated_at": "2018-11-01T09:19:33.118228-03:00", "active": true}, {"id": 95, "name": "Desenvolvimento Web Full Stack", "category": "technology", "slug": "/tecnologia/desenvolvimento-web-full-stack", "image": "https://mastertechfiles.blob.core.windows.net/site/0637be82-9bcb-4811-9535-af6807bcb5d4", "workload": 400, "description": null, "interview": true, "created_at": "2018-09-17T01:24:49.503307-03:00", "updated_at": "2018-12-14T14:13:05.657948-02:00", "active": true}, {"id": 11, "name": "Aprenda a Programar em um FDS", "category": "technology", "slug": "/tecnologia/aprenda-a-programar-em-um-final-de-semana", "image": "https://mastertechfiles.blob.core.windows.net/site/c4a008f8-b11a-41d8-9a6b-7135c4de531c", "workload": 16, "description": "Design thinking e metodologia \u00e1gil na pr\u00e1tica, introdu\u00e7\u00e3o a HTML, CSS, Javascript, L\u00f3gica de programa\u00e7\u00e3o, publica\u00e7\u00e3o e cria\u00e7\u00e3o do seu primeiro projeto.", "interview": false, "created_at": "2018-09-17T01:24:49.233927-03:00", "updated_at": "2019-04-04T11:02:31.719394-03:00", "active": true}, {"id": 98, "name": "L\u00f3gica de Programa\u00e7\u00e3o", "category": "technology", "slug": "/tecnologia/logica-de-programacao", "image": "https://s3-sa-east-1.amazonaws.com/mastertechfiles/logica.jpg", "workload": 12, "description": "conceitos fundamentais da l\u00f3gica de programa\u00e7\u00e3o, construindo algoritmos matem\u00e1ticos e computacionais da forma correta e mais eficiente.", "interview": false, "created_at": "2019-02-15T17:31:42.922078-02:00", "updated_at": "2019-02-18T22:12:45.752969-03:00", "active": true}, {"id": 100, "name": "Aprenda a Programar em um FDS em BH", "category": "technology", "slug": "/tecnologia/aprenda-a-programar-em-um-final-de-semana-belo-horizonte", "image": "https://mastertechfiles.blob.core.windows.net/site/c4a008f8-b11a-41d8-9a6b-7135c4de531c", "workload": 16, "description": "Design thinking e metodologia \u00e1gil na pr\u00e1tica, introdu\u00e7\u00e3o a HTML, CSS, Javascript, L\u00f3gica de programa\u00e7\u00e3o, publica\u00e7\u00e3o e cria\u00e7\u00e3o do seu primeiro projeto.", "interview": true, "created_at": "2019-03-27T10:14:18.865291-03:00", "updated_at": "2019-05-19T10:27:50.312770-03:00", "active": true}, {"id": 33, "name": "Metodologia de Design Thinking - noturno", "category": "business", "slug": "/negocios/metodologia-de-design-thinking", "image": "https://mastertechfiles.blob.core.windows.net/site/f1138127-6750-4627-99b0-34a64a2f4151", "workload": 3, "description": "principais princ\u00edpios de design thinking, metodologia, t\u00e9cnicas para aplicar no seu dia a dia este conceito, e como este mindset pode ajudar para criar solu\u00e7\u00f5es atuais.", "interview": false, "created_at": "2018-09-17T01:24:49.313709-03:00", "updated_at": "2019-05-07T18:56:28.440879-03:00", "active": true}, {"id": 5, "name": "UX Design Imersivo - noturno", "category": "design-ux", "slug": "/design-ux/ux-design", "image": "https://mastertechfiles.blob.core.windows.net/site/dd0b9f4e-7397-48a0-8968-914619baccb6", "workload": 48, "description": "Introdu\u00e7\u00e3o a User Experience e Design Thinking, T\u00e9cnicas de Pesquisa, Tabula\u00e7\u00e3o, Personas e Jornada, Hist\u00f3rias do usu\u00e1rio, objetivos, fluxos e prioriza\u00e7\u00e3o de funcionalidades, Prototipa\u00e7\u00e3o em Papel, Arquitetura de Informa\u00e7\u00e3o, Wireframes e Prototipa\u00e7\u00e3o de M\u00e9dia Fidelidade, Fundamentos de Design Visual, Design Patterns e Responsividade, Prototipa\u00e7\u00e3o de Alta Fidelidade e teste de usabilidade.", "interview": false, "created_at": "2018-09-17T01:24:49.213825-03:00", "updated_at": "2019-05-13T15:19:02.589872-03:00", "active": true}, {"id": 103, "name": "Mindset \u00c1gil em um FDS", "category": "business", "slug": "/negocios/mindset-agil-fds", "image": "https://s3-sa-east-1.amazonaws.com/mastertechfiles/Modelo-mindset-agil.png", "workload": 16, "description": "Introdu\u00e7\u00e3o ao \u00e1gil, Vivendo na era da mudan\u00e7a, A import\u00e2ncia da empatia e da colabora\u00e7\u00e3o, Metodologia \u00e1gil vs estruturas tradicionais, Sociedade 5.0, Manifesto \u00e1gil,  Metodologia scrum habilidades para lideran\u00e7a do sec 21, A import\u00e2ncia de um bom repert\u00f3rio, gest\u00e3o visual, Etapas de uma cultura \u00e1gil, Etapas e cerim\u00f4nias e Aprendizagem cont\u00ednua.", "interview": false, "created_at": "2019-05-21T11:22:44.063992-03:00", "updated_at": "2019-05-21T11:22:44.064015-03:00", "active": true}];
+        const endpoints = {'api': 'https://api.mastertech.com.br/'};
+    </script>
+
+</body>
+
+</html>
